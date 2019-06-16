@@ -1,0 +1,11 @@
+{
+  "development": {
+    "use_env_variable": "POSTGRES_DEV_URL"
+  },
+  "test": {
+    "use_env_variable": "POSTGRES_TEST_URL"
+  },
+  "production": {
+    "use_env_variable": "POSTGRES_PROD_URL"
+  }
+}
