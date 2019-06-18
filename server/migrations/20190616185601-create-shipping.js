@@ -12,7 +12,7 @@ module.exports = {
         allowNull: false,
       },
       shipping_cost: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.DOUBLE,
         allowNull: false,
       },
       shipping_region_id: {
